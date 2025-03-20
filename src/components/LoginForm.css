@@ -1,0 +1,63 @@
+/* LoginForm.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .login-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 320px;
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .login-form input::placeholder {
+    color: white;
+    opacity: 0.7;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-form button:hover {
+    background: #0056b3;
+  }
+  
+  .login-form p {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .login-form a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
